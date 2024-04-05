@@ -1,0 +1,3 @@
+https://640863e066f09a1845e81a76--prismatic-cajeta-f3a0aa.netlify.app/login
+
+your can pass pictures for each project--> using the array pictures[]
