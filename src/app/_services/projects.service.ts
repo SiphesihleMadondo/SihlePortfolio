@@ -1,16 +1,14 @@
 import { Injectable } from '@angular/core';
-<<<<<<< HEAD
+
 import { Project } from '../models/Project';
 import { Tag } from '../models/Tag';
-=======
->>>>>>> c1449464509fc8bdd641d7643e441be0f862e6df
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProjectsService {
 
-<<<<<<< HEAD
+
   projects: Project [] = [
     {id: 0, name: 'Sample Angular App',pictures: ["../../assets/Homes App/Image 1.PNG", "../../assets/Homes App/Image 2.PNG","../../assets/Homes App/Image 3.PNG","../../assets/Homes App/Image 4.PNG","../../assets/Homes App/Image 5.PNG"], summary: 'Devloped a project that advertises homes',description: 'homes app',projectLink: 'https://github.com/',tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS]},
     {id: 1, name: 'Sample .NET Core App',pictures: [], summary: 'Devloped a project that advertises homes',description: 'homes app',projectLink: 'https://github.com/',tags: [Tag.CSHARP, Tag.ASPNETCORE]},
@@ -38,7 +36,5 @@ export class ProjectsService {
      return project;
   }
 
-=======
-  constructor() { }
->>>>>>> c1449464509fc8bdd641d7643e441be0f862e6df
+
 }

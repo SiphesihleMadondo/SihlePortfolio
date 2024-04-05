@@ -17,12 +17,12 @@ import { ProjectsService } from '../_services/projects.service';
 })
 export class PortfolioComponent implements OnInit {
   
-<<<<<<< HEAD
-   
+
+
   projects = {} as Project[];
 
   constructor(private titleService: Title, private ProjectService: ProjectsService){
-=======
+
   projects: Project [] = [
   {id: 0, name: 'Sample Angular App',pictures: [], summary: 'Devloped a project that advertises homes',description: 'homes app',projectLink: 'https://github.com/',tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS]},
   {id: 1, name: 'Sample .NET Core App',pictures: [], summary: 'Devloped a project that advertises homes',description: 'homes app',projectLink: 'https://github.com/',tags: [Tag.CSHARP, Tag.ASPNETCORE]},
