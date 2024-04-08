@@ -2,12 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ProjectsService } from '../_services/projects.service';
 import { Project } from '../models/Project';
-import {CarouselModule} from 'ngx-bootstrap/carousel'
+import {CarouselModule} from 'ngx-bootstrap/carousel';
+import { CommonModule } from '@angular/common';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CarouselModule],
+  imports: [CarouselModule, CommonModule, ModalModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
@@ -22,5 +24,6 @@ export class HomeComponent implements OnInit {
     }
   ngOnInit(): void {
     this.featuredProject = this.projectService.getProjectId(0)
+    //
   }
 }
