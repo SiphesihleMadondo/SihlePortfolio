@@ -1,7 +1,7 @@
 
-.modal-body {
+/* .modal-body {
     height: 500px;
-}
+} */
 ::ng-deep .carousel-control-prev,
 ::ng-deep .carousel-control-next {
     background-color: rgb(151, 151, 151);
@@ -14,3 +14,4 @@
 ::ng-deep .carousel-control-prev-icon {
     background-color: black;
 } */
+

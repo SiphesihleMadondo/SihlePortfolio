@@ -14,10 +14,14 @@
         </div>
   
     }
-
-
-      <!--<slide><img src="../../assets/Angular App, Web API/Image 1.PNG" alt="slide" style="display: block; width: 100%;"></slide>
-       <slide><img src="../../assets/Image2.png" alt="slide" style="display: block; width: 100%;"></slide>
-       <slide><img src="../../assets/Image3.png" alt="slide" style="display: block; width: 100%;"></slide> -->
     </carousel>
+    <h3 class="mt-2 ">Description</h3>
+    <p>{{project.description}}</p>
+    <p>You can find this project on Github <a href={{project.projectLink}} target="_blank">here</a></p>
+    <hr>
+    <div class="d-flex flex-wrap">
+        @for(tag of project.tags; track project.id){
+            <div class="tag me-2 mb-1" [style.background-color]="tag.color">{{tag}}</div>
+         }
+    </div>
 </div>

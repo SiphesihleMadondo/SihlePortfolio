@@ -14,7 +14,7 @@ export class ProjectsService {
     {id: 1, name: 'Sample .NET Core App',pictures: ["../../assets/Homes App/Image 1.PNG", "../../assets/Homes App/Image 2.PNG","../../assets/Homes App/Image 3.PNG","../../assets/Homes App/Image 4.PNG","../../assets/Homes App/Image 5.PNG"], summary: 'Devloped a project that advertises homes',description: 'homes app',projectLink: 'https://github.com/',tags: [Tag.CSHARP, Tag.ASPNETCORE]},
     {id: 2, name: 'Sample Azure static App',pictures: [], summary: 'Devloped an Azure static app',description: 'Vanilla-app',projectLink: 'https://github.com/',tags: [Tag.AZURE, Tag.JAVASCRIPT]},
     {id: 3, name: 'Sample Angular and PHP',pictures: ["../../assets/Timesheet App/Image 1.PNG"], summary: 'Devloped a Timesheet System',description: 'Timesheet App',projectLink: 'https://github.com/',tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.PHP]},
-    {id: 4, name: 'Sample Wep API, Angular App',pictures: ["../../assets/Angular App, Web API/Image 1.PNG", "../../assets/Angular App, Web API/Image 2.PNG","../../assets/Angular App, Web API/Image .PNG"], summary: 'Simple Web API app',description: 'Simple app',projectLink: 'https://github.com/',tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.ASPNETCORE]},
+    {id: 4, name: 'Sample Wep API, Angular App',pictures: ["../../assets/Angular App, Web API/Image 1.PNG", "../../assets/Angular App, Web API/Image 2.PNG","../../assets/Angular App, Web API/Image 3.PNG"], summary: 'Simple Web API app',description: 'Simple Web API app',projectLink: 'https://github.com/',tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.ASPNETCORE]},
     
    ]
 
