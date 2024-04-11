@@ -1,1 +1,158 @@
-<p>resume works!</p>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<div class="container text-center">
+    <button (click)="DownloadFile()" class="btn btn-primary mb-5 shadow border">Download PDF Resume</button>
+
+    <div class="pb-2">
+      
+        <accordion [isAnimated] ="true" class="shadow">
+            <accordion-group [(isOpen)]="isWorkExperienceOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link fw-bold">Work Experience</div>
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isWorkExperienceOpen" style="color: white;"><img id="icon1" src="../../assets/MenuIcon1.png" alt="" ></div>
+                        <div *ngIf="isWorkExperienceOpen" style="color: white;"><img id="icon1" src="../../assets/MenuIcon2.png" alt="" ></div>
+                    </div>
+                    
+                </button>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">Consultant/ CSHARP Developer: June 2017: March 31, 2023 (Employer)</h2>
+                    <h3 class="text-primary">Reverside Software Solutions</h3>
+                    <ul>
+                        <li>My careers started C# Developer at Reverside Software Solutions with a bootcamp which gave me
+                            the opportunity of the real work environment. I got exposed in platforms such Angular and
+                            JavaScript for front end development. C# back-end and MS SQL Server for databases. I also have a
+                            bit of background development in programming languages such as Typescript. For Other Experience from outsourced clients refer to my CV.</li>
+                        <br>
+                        <li>
+                            Duties
+                            <ul>
+                                <li>Design, develop and test new features in applications.</li>
+                                <li>Interact with stakeholders to specify requirements for applications.</li>
+                                <li>Debug and maintain written code.</li>
+                                <li>Identify areas where code quality is lacking and improve upon it.</li>
+                                <li>Create a suite of unit testing for code.</li>
+                                <li>Provide support to end users and stakeholders in the organisation.</li>
+                                <li>Write and maintain documentation for code.</li>
+                                <li>Report on project statuses and developments to senior team members.</li>
+                            </ul>
+    
+                        </li>
+                    </ul>         
+                </div>
+                <hr>
+                <div style="text-align: left;">
+                    <h2 class="mb-0">C# Junior Developer at Adviceworx: Current</h2>
+                    <h3 class="text-primary">Adviceworx</h3>
+                    <ul>
+                        <li>Developing using C-sharp, Angular and Typescript. Using SQL for sever side, and pipelines as part of CI/CD.</li>
+                        <br>
+                        <li>
+                            Duties
+                            <ul>
+                                <li>Assist with the designing, development, customizing and maintenance of various proprietary applications.</li>
+                                <li>Assist with maintenance of existing Qlikview models.</li>
+                                <li>Data Clean up from source.</li>
+                                <li>Maintaining automation pipelines.</li>
+                                <li>Owning the data supply chain (From SFTP to Qlik).</li>
+                                <li>Developing, maintenance and housekeeping of AWX proprietary Webapp.</li>
+                                <li>General Development and any ad-hoc requests as provided by the Head Developer when required.</li>
+                            </ul>
+    
+                        </li>
+                    </ul>         
+                </div>
+            </accordion-group>
+    
+            <accordion-group [(isOpen)]="isEducationOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link fw-bold">Education</div>
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isEducationOpen" style="color: white;"><img id="icon1" src="../../assets/MenuIcon1.png" alt="" ></div>
+                        <div *ngIf="isEducationOpen" style="color: white;"><img id="icon1" src="../../assets/MenuIcon2.png" alt="" ></div>
+                    </div>
+                    
+                </button>
+
+                <div style="text-align: left;">
+                     <h2>National Diploma in Information Technology</h2>
+                     <h3 class="text-primary">Mangosuthu university of Technology</h3>
+                     <ul>
+                        <li>Development Software.</li>
+                        <li>Information Systems.</li>
+                        <li>Internet Programming.</li>
+                        <li>Systems Software.</li>
+                      </ul>
+                </div>
+    
+            </accordion-group>
+    
+            <accordion-group [(isOpen)]="isCertificatesOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link fw-bold">Certificates</div>
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isCertificatesOpen" style="color: white;"><img id="icon1" src="../../assets/MenuIcon1.png" alt="" ></div>
+                        <div *ngIf="isCertificatesOpen" style="color: white;"><img id="icon1" src="../../assets/MenuIcon2.png" alt="" ></div>
+                    </div>
+                    
+                </button>
+
+                <div style="text-align: left;">
+                    <h2>Udemy Certificate of Completion Angular Core Deep Dive - Beginner to Advanced (Angular 17)</h2>
+                    <ul>
+                        <li>Obtained: January 2024</li>
+                        <li>#UC-2823bbb4-2f1f-45fc-a8dd-78c1a492dd43</li>
+                    </ul>
+                </div>
+            </accordion-group>
+    
+            <accordion-group [(isOpen)]="isSkillsOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+
+                    <div style="visibility: hidden;">></div>
+                    <div class="btn-link fw-bold">Skills</div>
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isSkillsOpen" style="color: white;"><img id="icon1" src="../../assets/MenuIcon1.png" alt="" ></div>
+                        <div *ngIf="isSkillsOpen" style="color: white;"><img id="icon1" src="../../assets/MenuIcon2.png" alt="" ></div>
+                    </div>
+                    
+                </button>
+
+               <div class="row" style="text-align: left;">
+                    <div class="col"> 
+                        <h3>Programming Languages:</h3>
+                          <ul>
+                            <li>C#</li>
+                            <li>TypeScript</li>
+                            <li>JavaScript</li>
+                          </ul>
+                    </div>
+
+                    <div class="col">
+                        <h3>Frameworks:</h3>
+                        <ul>
+                            <li>Angular</li>
+                            <li>ASP.NET Core</li>
+                            <li>Node.JS</li>
+                        </ul>
+                    </div>
+
+                    <div class="col">
+                        <h3>Other Skills:</h3>
+                        <ul>
+                            <li>Version Control Git/GitHub</li>
+                            <li>MVC architecture</li>
+                            <li>Version Control Team Foundation Server - TFS</li>
+                            <li>Agile Development</li>
+                        </ul>
+                    </div>
+               </div>
+            </accordion-group>
+        </accordion>
+    </div>
+</div>

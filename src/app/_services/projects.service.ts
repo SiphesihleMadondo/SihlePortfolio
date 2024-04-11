@@ -41,7 +41,10 @@ export class ProjectsService {
     {
       id: 2,
       name: 'Sample Azure static App',
-      pictures: [],
+      pictures: [
+        '../../assets/Vanilla App/Image1.PNG',
+        '../../assets/Vanilla App/Image2.PNG'
+      ],
       summary: 'Developed an Azure static app',
       description: 'Vanilla-app',
       projectLink: 'https://github.com/',
@@ -71,13 +74,13 @@ export class ProjectsService {
     }
   ]
 
-  constructor() { }
+  constructor () {}
 
-  getProjects() {
+  getProjects () {
     return this.projects
   }
 
-  getProjectId(id: number): Project {
+  getProjectId (id: number): Project {
     // search for the
     let project = this.projects.find(project => project.id === id)
 
@@ -89,15 +92,15 @@ export class ProjectsService {
     return project
   }
 
-  getProjectsByFilter(filterTags: Tag[]) {
+  getProjectsByFilter (filterTags: Tag[]) {
     let filteredProjects: Project[] = []
 
-    this.projects.forEach(function (project){
+    this.projects.forEach(function (project) {
       let foundndAll = true
 
-      filterTags.forEach(function (filterTag){
+      filterTags.forEach(function (filterTag) {
         if (project.tags.includes(filterTag) == false) {
-          foundndAll = false;
+          foundndAll = false
         }
       })
 
@@ -106,6 +109,6 @@ export class ProjectsService {
       }
     })
 
-    return filteredProjects;
+    return filteredProjects
   }
 }
