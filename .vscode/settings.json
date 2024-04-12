@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/1050ebd2-bf4b-4e73-b9da-f105a76757a7/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/siphe-cv-webapp",
+    "appService.deploySubpath": "."
+}
