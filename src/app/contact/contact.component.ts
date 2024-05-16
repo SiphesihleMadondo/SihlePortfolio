@@ -13,6 +13,4 @@ export class ContactComponent {
   constructor(private titleService: Title){
     this.titleService.setTitle('Siphesihle - Contact')
   }
-  
-
 }
