@@ -23,8 +23,8 @@ export class ResumeComponent {
   DownloadFile () {
     const link = this.renderer.createElement('a')
     link.setAttribute('target', '_blank')
-    link.setAttribute('href', '../../assets/SiphesihleCV.pdf')
-    link.setAttribute('download', 'SiphesihleCV.pdf')
+    link.setAttribute('href', '../../assets/SIPHESIHLE MADONDO.docx')
+    link.setAttribute('download', '/SIPHESIHLE MADONDO.docx')
     link.click()
     link.remove()
   }

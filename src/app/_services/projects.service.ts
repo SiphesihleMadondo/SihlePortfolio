@@ -9,7 +9,7 @@ export class ProjectsService {
   projects: Project[] = [
     {
       id: 0,
-      name: 'Sample Angular App',
+      name: 'Homes (Angular App, Node.JS, TypeScript)',
       pictures: [
         '../../assets/Homes App/Image 1.PNG',
         '../../assets/Homes App/Image 2.PNG',
@@ -24,18 +24,29 @@ export class ProjectsService {
     },
     {
       id: 1,
-      name: 'Sample .NET Core App',
+      name: 'Tima .NET Core App, MVC, MVVM, C#, SQL, Azure, HTML, CSS, Bootstrap, JavaScript, Razor',
       pictures: [
-        '../../assets/Homes App/Image 1.PNG',
-        '../../assets/Homes App/Image 2.PNG',
-        '../../assets/Homes App/Image 3.PNG',
-        '../../assets/Homes App/Image 4.PNG',
-        '../../assets/Homes App/Image 5.PNG'
+        '../../assets/Tima App/Home.png',
+        '../../assets/Tima App/Login.png',
+        '../../assets/Tima App/Register.png',
+        '../../assets/Tima App/Admin-LeaveTypes.png',
+        '../../assets/Tima App/Admin-Manage-Requests.png',
+        '../../assets/Tima App/Admin-Periods.png',
+        '../../assets/Tima App/Admin-Timesheet-Approvals.png',
+        '../../assets/Tima App/Admin-Timesheet-EmployeeActivity.png',
+        '../../assets/Tima App/Admin-Timesheet-Submissions.png',
+        '../../assets/Tima App/Admin-View-Employees.png',
+        '../../assets/Tima App/Employee-Create-Timesheet.png',
+        '../../assets/Tima App/Employee-LeaveAllocation.png',
+        '../../assets/Tima App/Employee-LeaveApplication.png',
+        '../../assets/Tima App/Employee-TimesheetDetails.png',
+        '../../assets/Tima App/Employee-TimesheetSubmissions.png'
+     
       ],
-      summary: 'Developed a project that advertises homes',
-      description: 'homes app',
+      summary: 'Developed a project that manages leave and timesheets',
+      description: 'Tima App (Leave Management/Timesheet System)',
       projectLink: 'https://github.com/',
-      tags: [Tag.CSHARP, Tag.ASPNETCORE]
+      tags: [Tag.CSHARP, Tag.ASPNETCORE, Tag.SQL, Tag.AZURE, Tag.HTML, Tag.CSS, Tag.BOOTSTRAP, Tag.JAVASCRIPT, Tag.RAZOR, Tag.MVC, Tag.MVVM]
     },
     {
       id: 2,
@@ -51,23 +62,23 @@ export class ProjectsService {
     },
     {
       id: 3,
-      name: 'Sample Angular and PHP',
+      name: 'Log Time Angular and PHP',
       pictures: ['../../assets/Timesheet App/Image 1.PNG'],
-      summary: 'Developed a Timesheet System',
+      summary: 'Developed a Log Time System',
       description: 'Timesheet App',
       projectLink: 'https://github.com/',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.PHP]
     },
     {
       id: 4,
-      name: 'Sample Wep API, Angular App',
+      name: 'Highcharts Angular App, Wep API,',
       pictures: [
         '../../assets/Angular App, Web API/Image 1.PNG',
         '../../assets/Angular App, Web API/Image 2.PNG',
         '../../assets/Angular App, Web API/Image 3.PNG'
       ],
       summary: 'Simple Web API app',
-      description: 'Simple Web API app',
+      description: 'Highcharts and Web API app',
       projectLink: 'https://github.com/',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.ASPNETCORE]
     }

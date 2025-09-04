@@ -16,4 +16,7 @@ import { NavComponent } from './nav/nav.component';
 })
 export class AppComponent {
   title = 'Siphesihle Portfolio';
+
+  
+  
 }
